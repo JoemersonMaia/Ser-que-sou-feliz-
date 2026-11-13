@@ -47,12 +47,6 @@ A motivação é didática: mostrar, de ponta a ponta, como um modelo sai de um 
 
 > O caminho da imagem acima é **provisório**: o arquivo ainda não existe no repositório.
 
-| Item | Link |
-|------|------|
-| Aplicação publicada | `[INSERIR LINK DO DEPLOY]` |
-
----
-
 ## ✨ Funcionalidades
 
 - Questionário interativo com **13 perguntas**, usando `selectbox`, `radio` e `number_input`, organizadas em 3 colunas.
