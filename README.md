@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/MATPLOTLIB-11557C?style=for-the-badge" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/LICEN%C3%87A-A%20DEFINIR-lightgrey?style=for-the-badge" alt="Licença a definir" />
 </p>
 
 ---
