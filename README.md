@@ -262,7 +262,7 @@ Sugestões e *issues* também são muito bem-vindas.
 **Joemerson Maia**
 
 - GitHub: [@JoemersonMaia](https://github.com/JoemersonMaia)
-- LinkedIn: `[INSERIR LINK DO LINKEDIN]`
+- LinkedIn: https://www.linkedin.com/in/joemerson-maia-198b39365/
 
 ---
 
