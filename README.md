@@ -36,8 +36,6 @@
 
 Por trás da brincadeira há um fluxo completo de ciência de dados: uma pesquisa real com a comunidade do **Téo Me Why** (canal de dados e tecnologia), tratamento da base, comparação de algoritmos de classificação, treino de um modelo final (**Regressão Logística**) e uma interface para colocar esse modelo para conversar com o usuário.
 
-A motivação é didática: mostrar, de ponta a ponta, como um modelo sai de um CSV e chega a uma tela que qualquer pessoa consegue usar. Felicidade, claro, não se resolve com `predict_proba`. Leia a seção de [limitações](#-limitações-e-avisos) antes de levar o resultado a sério.
-
 ---
 
 ## 🎬 Demonstração
