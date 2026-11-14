@@ -201,28 +201,6 @@ A base tem **182 respostas** e 15 colunas.
 
 ---
 
-## ⚠️ Limitações e avisos
-
-**Sobre os dados e o modelo**
-
-- **Amostra pequena e autosselecionada:** são 182 respostas, vindas de uma única comunidade, por pessoas que decidiram responder. Os resultados não representam a população em geral.
-- **Sem separação treino/teste:** as métricas do `metricas.py` são calculadas nos mesmos dados usados no treino, então tendem a ser otimistas. Além disso, só a Regressão Logística tem métricas calculadas.
-- **Brincadeira educativa:** o app não mede felicidade de verdade e não substitui avaliação psicológica.
-- **Estados limitados:** o app oferece apenas as 18 UFs presentes na base.
-
-**Sobre o código (comportamento atual)**
-
-- **Respostas numéricas ignoradas na previsão:** em `app.py`, o `get_dummies` é aplicado apenas às 6 variáveis categóricas. As 7 variáveis numéricas (os seis "Curte…?" e a idade) são descartadas nessa etapa e entram no modelo com valor 0 por causa do `fillna(0)`. Na prática, só as respostas categóricas alteram o resultado.
-- **Textos da interface:** a mensagem da faixa acima de 70% começa com "ocê" (sem o "V"), as duas faixas de felicidade usam `st.success`, e o título `#Descubra a Felicidade` não tem espaço após o `#`, por isso não é renderizado como título.
-- **Rótulo da curva ROC:** a legenda do gráfico diz "naive", mas o valor exibido é o AUC da Regressão Logística.
-
-**Sobre o arquivo do modelo**
-
-- **Versão do scikit-learn:** o `.pke` foi gerado com uma versão específica da biblioteca e pode dar erro em versões muito diferentes. Se isso acontecer, retreine o modelo com o `metricas.py`.
-- **Pickle:** o arquivo usa `pickle`, então **só deve ser carregado se vier de fonte confiável**. Carregar um `.pke` desconhecido pode executar código arbitrário.
-
----
-
 ## 🔭 Melhorias futuras
 
 > Nenhum dos itens abaixo está implementado.
