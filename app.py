@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -144,7 +143,22 @@ dummy_vars = [
     "Posição da cadeira (senioridade)",
 ]
 
-df = pd.get_dummies(df[dummy_vars]).astype(int)
+# Variáveis numéricas (Sim/Não já convertidos para 1/0, e idade)
+num_vars = [
+    "Curte games?",
+    "Curte futebol?",
+    "Curte livros?",
+    "Curte jogos de tabuleiro?",
+    "Curte jogos de fórmula 1?",
+    "Curte jogos de MMA?",
+    "Idade",
+]
+
+df_dummies = pd.get_dummies(df[dummy_vars]).astype(int)
+df_num = df[num_vars].astype(int)
+
+# Junta as categóricas (one-hot) com as numéricas
+df = pd.concat([df_dummies, df_num], axis=1)
 
 # Estrutura das colunas esperadas pelo modelo
 df_template = pd.DataFrame(columns=[
@@ -211,7 +225,7 @@ df = pd.concat([df_template, df], ignore_index=True).fillna(0)
 try:
     features = model['features']
 
-    df = df.reindex(columns=features, fill_value=0)
+    df = df.reindex(columns=features, fill_value=0).astype(float)
 
     proba = model["model"].predict_proba(df)[:, 1][0]
 
