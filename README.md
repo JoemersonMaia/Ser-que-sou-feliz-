@@ -229,12 +229,6 @@ Sugestões e *issues* também são muito bem-vindas.
 
 ---
 
-## 📄 Licença
-
-`[DEFINIR LICENÇA]`: sugestão de licença permissiva, **MIT**. Adicione um arquivo `LICENSE` na raiz do repositório e atualize o badge no topo deste README.
-
----
-
 ## 👤 Autor e contato
 
 **Joemerson Maia**
