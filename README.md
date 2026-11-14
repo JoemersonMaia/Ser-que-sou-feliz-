@@ -42,10 +42,11 @@ A motivação é didática: mostrar, de ponta a ponta, como um modelo sai de um 
 
 ## 🎬 Demonstração
 
-<!-- adicione aqui um print do app -->
-![Tela do app](docs/img/PROVISORIO-app.png)
+<p align="center">
+  <img src="docs/img/app.png" alt="Tela do app Será que sou feliz?, com o questionário e o resultado da avaliação" width="800" />
+</p>
 
-> O caminho da imagem acima é **provisório**: o arquivo ainda não existe no repositório.
+---
 
 ## ✨ Funcionalidades
 
@@ -226,12 +227,6 @@ A base tem **182 respostas** e 15 colunas.
 5. Abra um *Pull Request* descrevendo o que mudou e por quê.
 
 Sugestões e *issues* também são muito bem-vindas.
-
----
-
-## 📄 Licença
-
-`[DEFINIR LICENÇA]`: sugestão de licença permissiva, **MIT**. Adicione um arquivo `LICENSE` na raiz do repositório e atualize o badge no topo deste README.
 
 ---
 
