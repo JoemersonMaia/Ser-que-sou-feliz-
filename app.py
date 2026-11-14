@@ -10,14 +10,10 @@ st.set_page_config(
     layout="wide"
 )
 
-<<<<<<< HEAD
-st.markdown("# Descubra a Felicidade")
-=======
 # Carregamento do modelo
 @st.cache_resource
 def carregar_modelo():
     return pd.read_pickle("model_feliz.pke")
->>>>>>> develop
 
 try:
     model = carregar_modelo()
