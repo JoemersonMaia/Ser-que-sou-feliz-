@@ -3,7 +3,7 @@ import pandas as pd
 
 model = pd.read_pickle("model_feliz.pke")
 
-st.markdown("#Descubra a Felicidade")
+st.markdown("# Descubra a Felicidade")
 
 
 cursos_opt = ['0', '2', '1', '3', 'Mais que 3',]
